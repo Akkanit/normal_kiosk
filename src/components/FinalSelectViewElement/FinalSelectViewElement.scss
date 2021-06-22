@@ -1,0 +1,55 @@
+
+.final-select-view-element-outer-box {
+  background-color: #C8DADD;
+  font-size: 10px;
+  //font-family: , serif;
+
+  width: 81px;
+  height: 120px;
+  text-align: center;
+
+
+  .inner-box {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    overflow-wrap: normal;
+
+    color: #000000;
+
+    .add-reduce-box{
+      object-fit: contain;
+      width: 100%;
+      height: 10%;
+      
+      font-size: 150%;
+      font-weight: bold;
+      z-index: 10;
+      position:relative;
+    }
+    .image{
+      object-fit: contain;
+      width: 100%;
+      height: 44%;
+      z-index: 5;
+      position:relative;
+    }
+    .name-label{
+      font-size: 100%;
+      height: 25%;
+      font-weight: bold;
+      text-align: center;
+      line-height: 110%;
+    }
+
+    .price-label{
+      margin-top: 0;
+      font-size: 150%;
+      font-weight: bold;
+      text-align: center;
+      padding-bottom:10%
+    }
+  }
+
+}
